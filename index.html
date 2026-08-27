@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otávio Castro | Desenvolvedor de Software</title>
+    <meta name="description" content="Portfólio de Otávio Castro, desenvolvedor de software especializado em C#, .NET, SQL Server e desenvolvimento web.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <nav class="navbar container">
+        <a href="#inicio" class="logo"><span>&lt;</span>OC<span>/&gt;</span></a>
+        <button class="menu-toggle" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio" class="active">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+    <div class="hero-background"></div>
+    <div class="container hero-content">
+        <div class="hero-text">
+            <h1>Otávio <strong>Castro.</strong></h1>
+            <h2>Desenvolvedor de Software</h2>
+            <p class="hero-description">Transformo ideias em soluções digitais, desenvolvendo aplicações modernas, funcionais e eficientes.</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contato" class="btn btn-outline">Entre em contato</a>
+            </div>
+            <div class="social-links">
+            <a href="https://wa.me/5511981820094"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/otavio-castro-tec"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:otavio.ohct@gmail.com"
+            aria-label="E-mail">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+        </div>
+
+        <div class="hero-code">
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-buttons"><span></span><span></span><span></span></div>
+                    <span class="window-title">developer.cs</span>
+                </div>
+                <div class="code-content">
+<pre><code><span class="code-purple">public class</span> <span class="code-blue">Developer</span>
+{
+    <span class="code-purple">public string</span> Name
+        = <span class="code-green">"Otávio Castro"</span>;
+
+    <span class="code-purple">public string[]</span> Skills =
+    {
+        <span class="code-green">"C#"</span>,
+        <span class="code-green">".NET"</span>,
+        <span class="code-green">"SQL"</span>,
+        <span class="code-green">"JavaScript"</span>
+    };
+
+    <span class="code-purple">public void</span> <span class="code-blue">Build</span>()
+    {
+        Create();
+        Learn();
+        Improve();
+    }
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-indicator"><span>Scroll para explorar</span><i class="fa-solid fa-chevron-down"></i></div>
+</section>
+
+<section id="sobre" class="section">
+    <div class="container">
+        <div class="section-title"><span>01.</span><h2>Sobre mim</h2><div></div></div>
+        <div class="about-content">
+            <div class="about-text">
+
+            <p>
+                Sou <strong>Desenvolvedor de Software</strong>, formado em
+                <strong>Análise e Desenvolvimento de Sistemas</strong>, com foco
+                na criação de aplicações que transformam necessidades reais em
+                soluções digitais eficientes.
+            </p>
+
+            <p>
+                Minha experiência envolve o desenvolvimento de sistemas utilizando
+                <strong>C#, .NET, APIs e SQL Server</strong>, atuando tanto
+                na construção do back-end quanto na integração e organização dos
+                dados. Também trabalho com <strong>JavaScript</strong> e tecnologias
+                voltadas à criação de interfaces e dashboards.
+            </p>
+
+            <p>
+                Tenho <strong>facilidade para aprender novas linguagens e
+                tecnologias</strong>. Minha facilidade em aprender novas linguagens e tecnologias me permite me adaptar rapidamente a diferentes projetos, stacks e desafios de desenvolvimento. 
+                Gosto de entender o problema, estruturar os dados, desenvolver a solução e entregar sistemas
+                <strong>organizados, eficientes e fáceis de manter</strong>.
+            </p>
+
+        </div>
+            <div class="about-card">
+                <div class="about-card-icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Desenvolvimento</h3>
+                <p>Back-end, front-end, bancos de dados, APIs e aplicações web.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section section-dark">
+    <div class="container">
+        <div class="section-title"><span>02.</span><h2>Skills</h2><div></div></div>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fa-solid fa-code"></i><h3>C#</h3><p>Desenvolvimento de aplicações</p></div>
+            <div class="skill-card"><i class="fa-brands fa-microsoft"></i><h3>.NET</h3><p>ASP.NET e aplicações</p></div>
+            <div class="skill-card"><i class="fa-solid fa-database"></i><h3>SQL Server</h3><p>Banco de dados e consultas</p></div>
+            <div class="skill-card"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><p>Interfaces e aplicações web</p></div>
+            <div class="skill-card"><i class="fa-brands fa-html5"></i><h3>HTML & CSS</h3><p>Interfaces responsivas</p></div>
+            <div class="skill-card"><i class="fa-solid fa-chart-line"></i><h3>Dados & Insights</h3><p>Transformando dados em informações, informações em insights e ideias em soluções digitais.
+    </p>
+</div>
+        </div>
+    </div>
+</section>
+
+<section id="projetos" class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <span>03.</span>
+            <h2>Principais Projetos</h2>
+            <div></div>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        Sistema Web
+                    </span>
+
+                    <h3>Sistema para Advogados</h3>
+
+                    <p>
+                        Sistema desenvolvido para gerenciamento de
+                        informações e processos relacionados à rotina
+                        de advogados, utilizando uma API integrada a um
+                        banco de dados estruturado.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>.NET</span>
+                        <span>API</span>
+                        <span>SQL Server</span>
+                        <span>Banco de Dados</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#"
+                           aria-label="GitHub Sistema Jurídico">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="Abrir Sistema Jurídico">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <i class="fa-solid fa-utensils"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        Aplicativo Mobile
+                    </span>
+
+                    <h3>iFome</h3>
+
+                    <p>
+                        Aplicativo de delivery desenvolvido com uma
+                        proposta semelhante a plataformas como o iFood,
+                        permitindo a conexão entre clientes e
+                        estabelecimentos, desenvolvida como projeto acadêmico.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>.NET MAUI</span>
+                        <span>API</span>
+                        <span>SQL Server</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#"
+                           aria-label="GitHub iFome">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="Abrir iFome">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        Projeto de Dashboard
+                    </span>
+
+                    <h3>DataTrack</h3>
+
+                    <p>
+                        Dashboard de gestão e monitoramento desenvolvido para
+                        transformar dados operacionais em indicadores,
+                        gráficos e informações para apoio à tomada de decisão.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>ASP.NET</span>
+                        <span>SQL Server</span>
+                        <span>JavaScript</span>
+                        <span>Chart.js</span>
+                        <span>API</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#"
+                        aria-label="GitHub DataTrack">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                        aria-label="Abrir DataTrack">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    <i class="fa-solid fa-seedling"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-type">
+                        Projeto acadêmico
+                    </span>
+
+                    <h3>Terra Verde</h3>
+
+                    <p>
+                        Plataforma voltada para sustentabilidade,
+                        agricultura urbana e conscientização ambiental,
+                        desenvolvida como projeto acadêmico.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="#"
+                           aria-label="GitHub Terra Verde">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           aria-label="Abrir Terra Verde">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="experiencia" class="section section-dark">
+    <div class="container">
+        <div class="section-title"><span>04.</span><h2>Experiência</h2><div></div></div>
+        <div class="timeline">
+           <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        2024 — 2026
+                    </span>
+
+                    <h3>
+                        Desenvolvedor Júnior
+                    </h3>
+
+                    <h4>
+                        GRLOG
+                    </h4>
+
+
+                    <div class="experience-list">
+
+                        <div class="experience-item">
+
+                            <h5>
+                                <i class="fa-solid fa-code"></i>
+                                Desenvolvimento Web
+                            </h5>
+
+                            <p>
+                                Desenvolvimento de aplicações utilizando
+                                <strong>C#, ASP.NET, SQL Server e JavaScript</strong>,
+                                com foco em soluções para suporte às operações
+                                logísticas.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>
+                                <i class="fa-solid fa-chart-line"></i>
+                                Dados & Dashboards
+                            </h5>
+
+                            <p>
+                                Criação de <strong>dashboards e tabelas interativas</strong>
+                                para centralização, acompanhamento e análise de
+                                informações operacionais.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>
+                                <i class="fa-solid fa-plug"></i>
+                                APIs & Integrações
+                            </h5>
+
+                            <p>
+                                Desenvolvimento de <strong>integrações entre sistemas</strong>
+                                e automação de processos, reduzindo atividades manuais
+                                e tornando as rotinas mais eficientes.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>
+                                <i class="fa-solid fa-database"></i>
+                                SQL & Relatórios
+                            </h5>
+
+                            <p>
+                                <strong>Otimização de consultas SQL</strong> e desenvolvimento
+                                de estruturas para relatórios operacionais, melhorando a
+                                eficiência na obtenção e utilização dos dados.
+                            </p>
+
+                        </div>
+
+
+                        <div class="experience-item">
+
+                            <h5>
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                Evolução de Sistemas
+                            </h5>
+
+                            <p>
+                                Participação no desenvolvimento, <strong>validação e
+                                homologação de funcionalidades</strong>, trabalhando
+                                em conjunto com as necessidades da operação.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="timeline-tech">
+
+                        <span>C#</span>
+                        <span>ASP.NET</span>
+                        <span>SQL Server</span>
+                        <span>JavaScript</span>
+                        <span>APIs</span>
+                        <span>Dashboards</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="section contact">
+<div class="container contact-content">
+    <span class="contact-number">05.</span>
+
+    <h2>Vamos trabalhar juntos?</h2>
+
+    <p>
+        Estou sempre aberto a novas oportunidades e
+        projetos na área de tecnologia.
+    </p>
+
+    <a href="https://wa.me/5511981820094"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="btn btn-primary">
+
+        Entre em contato
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+</div>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>Desenvolvido por <strong>Otávio Castro</strong></p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
